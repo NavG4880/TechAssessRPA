@@ -28,11 +28,11 @@ Project developed using RE Framework.
 ### How It Works ###
 ====================
 
-1. **INITIALIZE PROCESS**
+ 1. **INITIALIZE PROCESS**
  + ./Framework/*InitiAllSettings* - Load configuration data from Config.xlsx file and from assets
  + ./Framework/*KillAllProcesses* - Kill any open instance of Chrome and Excel
 
-2.**MAIN PROCESSING**
+ 2. **MAIN PROCESSING**
  + *Process* - Process invoke other workflow of "ReadInputExcel" related to the process being automated 
  + *ReadInputExcel* - Reads the Input excel file of employees data and store it in Data table, checks if excel is empty else invokes other 
 workflow "ProcessDataTable" and further "FormFillAndSubmit" workflow.
@@ -40,7 +40,7 @@ workflow "ProcessDataTable" and further "FormFillAndSubmit" workflow.
  + *FormFillAndSubmit* - will open the RPA challenge web page than will read each row of Data table and fill the form by entering the data for respective field on web form from data table and submit the form.
  + *TakeScreenShot* - will take the screen shot when ever this workflow is invoked anywhere in the automation project and will store in Screenshot folder in project.
 
-4. **END PROCESS**
+ 3. **END PROCESS**
  + ./Framework/*CloseAllApplications* - closes applications used throughout the process and logs if there was any exception of BUsiness exception type or system exception type.
 
 
