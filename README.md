@@ -8,9 +8,16 @@ Additional consideration taken care as part of this challenge:
 1) Check if input excel sheet is having NO Data, then log the exception as business exception and complete the process.
 2) Check each field data format in Excel and log it if any data format is not correct for example , email id format is not correct or phone number is not 11 digits numeric data... since if we will enter wrong data on challenge page than our result will degrade, but for demo purpose i am just logging it in log and proceeding further in process.
 
+How to run this project :
+========================
+- Download the zip file from Github.
+- Extract complete folder.
+- Open Main.Xaml in UiPath studio application community edition.
+- Run/Debug the project in UiPath Studio.
+
 
 Project developed using RE Framework.
-
+====================================
 * Uses *State Machine* layout for the phases of automation project.
 * Offers high level logging, exception handling and recovery.
 * Keeps external settings in *Config.xlsx* file stored in Data folder of the project.
