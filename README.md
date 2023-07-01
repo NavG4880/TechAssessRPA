@@ -14,6 +14,7 @@ How to run this project :
 - Extract complete folder.
 - Open Main.Xaml in UiPath studio application community edition.
 - Run/Debug the project in UiPath Studio.
+- Note: Uipath extension should be pre-enabled in the chrome on which this process will execute.
 
 
 Project developed using RE Framework.
